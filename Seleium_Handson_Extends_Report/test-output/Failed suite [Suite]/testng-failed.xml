@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testngListener.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="ExpandReport">
+    <classes>
+      <class name="com.anantaa.extends_reports3_23_02.FaceBookLogin"/>
+      <class name="com.testngListener.TestNGTestCase"/>
+    </classes>
+  </test> <!-- ExpandReport -->
+  <test name="ExpandReport(failed)">
+    <classes>
+      <class name="com.anantaa.extends_reports3_23_02.FaceBookLogin">
+        <methods>
+          <include name="ExtendReportsetUp"/>
+          <include name="setUrl"/>
+          <include name="errMsgBothBlank"/>
+          <include name="tearDown"/>
+          <include name="extentFlush"/>
+          <include name="pageTitle"/>
+          <include name="setValue"/>
+          <include name="result"/>
+          <include name="errPassBlank"/>
+        </methods>
+      </class> <!-- com.anantaa.extends_reports3_23_02.FaceBookLogin -->
+    </classes>
+  </test> <!-- ExpandReport(failed) -->
+  <test name="ExpandReport(failed)">
+    <classes>
+      <class name="com.anantaa.extends_reports3_23_02.FaceBookLogin">
+        <methods>
+          <include name="ExtendReportsetUp"/>
+          <include name="setUrl"/>
+          <include name="setUrl"/>
+          <include name="tearDown"/>
+          <include name="pageTitle"/>
+          <include name="setValue"/>
+          <include name="result"/>
+          <include name="errPassBlank"/>
+        </methods>
+      </class> <!-- com.anantaa.extends_reports3_23_02.FaceBookLogin -->
+    </classes>
+  </test> <!-- ExpandReport(failed) -->
+  <test name="ExpandReport(failed)(failed)">
+    <classes>
+      <class name="com.anantaa.extends_reports3_23_02.FaceBookLogin">
+        <methods>
+          <include name="ExtendReportsetUp"/>
+          <include name="setUrl"/>
+          <include name="setUrl"/>
+          <include name="errMsgBothBlank"/>
+          <include name="tearDown"/>
+          <include name="pageTitle"/>
+          <include name="setValue"/>
+          <include name="result"/>
+          <include name="errPassBlank"/>
+        </methods>
+      </class> <!-- com.anantaa.extends_reports3_23_02.FaceBookLogin -->
+    </classes>
+  </test> <!-- ExpandReport(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
